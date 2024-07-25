@@ -1,6 +1,6 @@
 def list_product(s):
     product=1
-    for num in s():
+    for num in s:
         product*=num
     return product
 
