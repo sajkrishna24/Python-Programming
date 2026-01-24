@@ -1,0 +1,12 @@
+#To check if the input strings can be derived from each other by circularly rotating them.
+# The rotation can be clockwise or anti-clockwise
+#Assume that there is no blank space inside the string.
+str1=input()
+str2=input()
+if len(str1)!=len(str2):
+    print("NO");exit()
+str11=str1+str1
+if(str2 in str11):
+    print("YES")
+else:
+    print("NO")
